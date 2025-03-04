@@ -1,0 +1,62 @@
+.logo {
+    width: 220px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 20%;
+}
+.fondo {
+    background-color: coral;
+}
+.miTexto {
+    font-size: 80px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.title {
+    font-size: small
+    
+}
+.titulo:hover{
+    background-color: bisque;
+    
+
+}
+
+#titulos {
+    border: 2px solid black;
+    width: 60vw;
+    margin: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+#cards-containers{
+    background-color: aqua;
+    width: 90vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.cards {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 2px 2px 2px 2px;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cards:hover {
+    background-color: bisque;
+    
+}
